@@ -1,0 +1,39 @@
+html {
+    font-size: $base_font_size;
+    font-family: $base_font_family;
+    font-weight: $base_font_weight;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content {
+    flex: 1;
+    width: $content_width;
+    margin: 0 auto;
+}
+.page-container {
+    flex: 1;
+}
+.main {
+    flex: 1;
+}
+.container-flex {
+    display: flex;
+    &_col {
+        flex-direction: column;
+    }
+}
+.heading {
+    font-weight: 200;
+    font-size: 30px;
+}
+
+$link-hover-color: $green;
+
+.link {
+    &:hover {
+        color: $link-hover-color;
+    }
+}

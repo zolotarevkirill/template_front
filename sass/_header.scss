@@ -1,0 +1,53 @@
+$header-text-color: $off-white;
+$header-bg-color: $green;
+.header {
+    padding: 6px 0 18px;
+    color: $header-text-color;
+    background-color: $dark-green;
+    &__reach {
+        justify-content: space-between;
+    }
+    &__contacts-list-item {
+        font-size: 11px;
+        line-height: 25px;
+        margin-right: 19px;
+        padding-left: 25px;
+    }
+    &__social-list {
+        display: flex;
+    }
+    &__social-list-item {
+        height: 20px;
+        width: 20px;
+        margin-left: 20px;
+        background-color: white;
+    }
+    &__main {
+        justify-content: space-between;
+    }
+    &__heading {
+        align-self: flex-end;
+    }
+    &__nav {
+        align-self: flex-end;
+    }
+}
+
+$main-heading-color: white;
+
+.main-heading {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: $main-heading-color;
+}
+
+.nav {
+    &__list-item {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 60px;
+    }
+}
